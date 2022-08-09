@@ -10,7 +10,7 @@ Foi desenvolvido no Visual Studio Code.
 
 * [Ruby](https://rubyinstaller.org/downloads/) - Instalar a versão recomendada marcada por => da sessão <b>WITH DEVKIT</b>
 * [ChromeDriver](https://chromedriver.chromium.org/downloads/) - Instalar a mesma versão do seu navegador. Salvar arquivo em C:\Windows\System32
-* Salvar as dependências do projeto, executando os comandos:
+* Salvar as dependências do projeto, executando o comando: bundler install
                 gem 'capybara'
                 gem 'chromedriver-helper'
                 gem 'cucumber'
